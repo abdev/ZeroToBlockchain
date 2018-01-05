@@ -684,4 +684,4 @@ exports.getHistory = function(req, res, next) {
             .catch((error) => {console.log('error with business network Connect', error);});
     })
     .catch((error) => {console.log('error with admin network Connect', error);});
-}
+};
